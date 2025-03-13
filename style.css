@@ -65,7 +65,7 @@ background-size: cover;
     /* background-image: url("picture.jpg"); */
     border: double;
     border-radius: 30px;
-    border-color: honeydew;
+    border-color: var(--color-secondary-contrast);
     border-width: 5px;
     height:auto;
     display: flex;
