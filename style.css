@@ -1,0 +1,191 @@
+/* COLORS: 
+    powderblue: #b0e0e6;
+    honeydew: #f0fff0;
+    nyanza: rgb(223, 239, 202);
+    vanilla: rgb(255, 249, 165);
+        Beaver: rgb(180, 139, 125);
+    */
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    li {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #itembox {
+        display: flex;
+        flex-direction: end;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #socials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+}
+body {
+    --color-primary: rgb(223, 239, 202);
+    --color-primary-contrast:rgb(173, 111, 90);
+    --color-secondary: powderblue;
+    --color-secondary-contrast: honeydew;
+    --color-tertiary:rgb(255, 249, 165);
+
+background-color: rgb(205, 216, 160);
+cursor: -webkit-grab;
+font-family: Arial, sans-serif;
+/* background-image: -webkit-repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.1) 10px, rgba(255, 255, 255, 0.1) 20px); */
+scrollbar-width: large;
+scroll-behavior: smooth;
+text-align: center;
+text-shadow: 0cm 0cm 0cm rgba(0, 0, 0, 0.5);
+border-style: double;
+background-blend-mode: exclusion;
+background-size: cover;
+
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: var(--color-secondary);
+    /* background-image: url("picture.jpg"); */
+    border: double;
+    border-radius: 30px;
+    border-color: honeydew;
+    border-width: 5px;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: papyrus;
+    font-style: italic;
+    font-size: 70%;
+    a:link, a:visited {
+        background-color: var(--color-tertiary);
+        color: var(--color-primary-contrast);
+        padding: 5% 5%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 40px;
+        border: double;
+        border-color: rgb(0, 0, 0);
+    }
+    a:hover, a:active {
+        background-color: var(--color-tertiary);
+        background-position: center;
+        border-style: dotted;
+        border-spacing: 30%;
+        border-width: 50%;
+        border-color: var(--color-primary-contrast);
+        font-size: 120%;
+        font-family: cursive;
+        color: var(--color-primary-contrast);
+    }
+ }
+
+img {
+    border-radius: 25px;
+    width: 50%;
+  }
+
+h1 {
+    color: var(--color-primary-contrast);
+    font-size: 200%;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 0.1cm 0.1cm 0.1cm rgba(0, 0, 0, 0.064);
+    border-style: double;
+    border-color: var(--color-secondary);
+    border-radius: 30px;    
+    border-width: 5px;
+    background-color:var(--color-tertiary);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h2 {
+    color:var(--color-primary-contrast);
+}
+
+li {
+    border: double 1px var(--color-primary-contrast);
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    list-style-type: none;
+    background: var(--color-secondary);
+    padding: 1%;
+    color: var(--color-tertiary);
+}
+  p {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: var(--color-primary-contrast);
+  }
+
+table {
+  border: double;
+border-radius: 30px;
+border-color: var(--color-tertiary);
+font-size: large;
+width: 100%;
+color: var(--color-primary-contrast);    
+;
+
+}
+
+  #socials {
+    overflow: hidden;
+    background-color: var(--color-secondary);
+    /* background-image: url("picture.jpg"); */
+    border: double;
+    border-radius: 30px;
+    border-color: var(--color-secondary-contrast);   
+    border-width: 5px;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50%;
+    a:link, a:visited {
+        background-color: var(--color-tertiary);
+        color: white;
+        /* padding: 5% 5%; */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 40px;
+        border: double;
+        border-color: rgb(0, 0, 0);
+    }
+    a:hover, a:active {
+        background-color:var(--color-primary);   
+        background-position: center;
+        border-style: dotted;
+        border-spacing: 30%;
+        border-width: 50%;
+        border-color: rgb(1, 115, 60);
+        font-size: 150%;
+        font-family: cursive;
+        color: rgb(111, 255, 0);
+    }
+    }
+
+footer {
+    font-size: small;
+    color: var(--color-primary-contrast);    
+}
